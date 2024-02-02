@@ -26,3 +26,8 @@
     width: 100%;
     /* font-size: 25px; */
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
