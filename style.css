@@ -17,14 +17,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    /* Adjust text color */
     text-align: center;
-    /* font-size: 90px; */
 }
 
 .banner-text p {
     width: 100%;
-    /* font-size: 25px; */
 }
 
 a {
@@ -36,7 +33,6 @@ a {
 @media (max-width: 576px) {
     .banner-text p {
         font-size: 14px;
-        /* Adjust the font size for small screens */
     }
 }
 
@@ -44,7 +40,6 @@ a {
 @media (min-width: 577px) and (max-width: 992px) {
     .banner-text p {
         font-size: 18px;
-        /* Adjust the font size for medium screens */
     }
 }
 
@@ -52,27 +47,22 @@ a {
 @media (min-width: 993px) {
     .banner-text p {
         font-size: 40px;
-        /* Adjust the font size for large screens */
     }
 }
-
-
-
-
-
 
 /* Media query for large screens */
 @media (min-width: 993px) {
     .banner-img {
         width: 45%;
         height: auto;
-        display: block;
+        display: flex;
+        align-self: center;
     }
 
     .banner-text {
         position: absolute;
         top: 89%;
-        left: 21%;
+        left: 50%;
         transform: translate(-50%, -50%);
         color: white;
         /* Adjust text color */
